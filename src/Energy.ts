@@ -1,5 +1,5 @@
 export default interface Enegery {
-  type_: string;
+  type_: EnergyType;
   amount: number;
 }
 

@@ -1,4 +1,4 @@
-import Archetype from '../Races/Archetype';
+import Archetype from './Archetype';
 import { EnergyType } from '../Energy';
 
 export default class Ranger extends Archetype {
@@ -12,7 +12,7 @@ export default class Ranger extends Archetype {
     Ranger._numbersInstance += 1;
   }
 
-  public get energy(): EnergyType {
+  public get energyType(): EnergyType {
     return this._energy;
   }
 
