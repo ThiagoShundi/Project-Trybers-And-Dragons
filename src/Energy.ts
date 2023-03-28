@@ -1,4 +1,4 @@
-export default interface Enegery {
+export default interface Energy {
   type_: EnergyType;
   amount: number;
 }
